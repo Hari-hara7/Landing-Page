@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
       redirectToMainSite();
     };
   
-    setTimeout(redirectToMainSite, 9000); // Fallback in case video doesn't play or end event doesn't fire
+    setTimeout(redirectToMainSite, 7000); // Fallback in case video doesn't play or end event doesn't fire
   
     function redirectToMainSite() {
       window.location.href = "https://academicpal.vercel.app/"; // Replace with the URL of the main site
